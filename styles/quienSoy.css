@@ -1,0 +1,104 @@
+/* SECTION DE QUIEN SOY*/
+
+.containerQuienSoy {
+	display: grid;
+	margin-top: -10%;
+	width: 100%;
+	grid-template-areas:
+		"acercaDeMi acercaDeMi acercaDeMi "
+		"miFoto quienSoy quienSoy";
+}
+
+.acercaDeMi {
+	color: #fff;
+
+	margin-top: 5%;
+}
+.acercaDeMi h2 {
+	color: #fff;
+	background: #426175;
+	height: 50%;
+	border-radius: 2px;
+}
+
+.acercaDeMi hr {
+	background: #46d1c0;
+	width: 200px;
+	height: 5px;
+	margin-top: -5px;
+}
+.acercaDeMi .hrServicio {
+	background: #f48e4f;
+	width: 220px;
+	margin-top: -15px;
+}
+.containerQuienSoy .quienSoy,
+.containerQuienSoy .miFoto {
+	height: 90vh;
+}
+.containerQuienSoy .miFoto {
+	grid-area: miFoto;
+}
+.containerQuienSoy .quienSoy {
+	grid-area: quienSoy;
+}
+
+.containerQuienSoy .acercaDeMi {
+	color: #426175;
+	grid-area: acercaDeMi;
+}
+.containerQuienSoy div {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+.containerQuienSoy img {
+	width: 60%;
+	height: 50vh;
+	margin: auto;
+	border-radius: 5%;
+	object-fit: cover;
+}
+
+.servicioHacer {
+	color: #e3b155;
+}
+
+.spanSoy {
+	color: #426175;
+	font-family: "Roboto Slab", serif;
+}
+.colorDeveloper {
+	color: #86af9d;
+}
+
+.soy {
+	color: #ffff;
+	padding: 10px;
+	width: 80%;
+	margin: auto;
+}
+
+.boton2 {
+	background-color: #426175;
+	color: #fff;
+	width: 40%;
+	outline: none;
+}
+
+.boton2:hover {
+	background: none;
+	color: #46d1c0;
+	border: solid 2px #46d1c0;
+}
+
+/*ANIMACION EN JS*/
+
+@media screen and (max-width: 768px) {
+	.containerQuienSoy {
+		grid-template-areas:
+			"acercaDeMi acercaDeMi acercaDeMi "
+			"miFoto miFoto miFoto"
+			"quienSoy quienSoy quienSoy";
+	}
+}

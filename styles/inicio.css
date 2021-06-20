@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+
+body {
+	font-family: "DM Serif Display", serif;
+	overflow-x: hidden;
+	background: #27232b;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+/*SECTION DONDE VA EL INICIO*/
+
+.logoPortafoli {
+	position: relative;
+	left: 10%;
+	display: flex;
+	color: #e3b155;
+	text-decoration: none;
+	margin-right: 20%;
+	margin-top: 10px;
+	font-size: 100%;
+	font-family: "Roboto Slab", serif;
+}
+.porta {
+	color: #e3b155;
+}
+
+.navbar {
+	position: fixed;
+	background: #27232b;
+	color: #ff3b3f;
+	height: auto;
+	width: 100%;
+	z-index: 9999;
+	top: 0;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.navbar ul {
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.navbar ul li {
+	text-decoration: none;
+	margin-right: 30px;
+}
+.navbar ul li a {
+	text-decoration: none;
+	color: #ffff;
+	text-align: center;
+	font-family: "Roboto Slab", serif;
+	transition: color 0.3s ease;
+}
+.navbar ul li a.active {
+	color: #e3b155;
+}
+.navbar ul li a:hover {
+	color: #e3b155;
+}
+
+.contenedor_negro {
+	height: 100vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: grid;
+	justify-content: center;
+	color: #fff;
+}
+.contenedor_negro .capaOscura {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	background: #27232b;
+	padding: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: solid 2px #fff;
+}
+.containeImg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contenedor_negro img {
+	border-radius: 50%;
+	border: solid 4px #ffff;
+	width: 50%;
+	height: 72%;
+}
+
+.columLetras {
+	display: grid;
+	font-size: calc(1em + 0.5vw);
+	justify-content: center;
+	font-family: "DM Serif Display", serif;
+}
+
+.columLetras a {
+	color: #fff;
+	/*color: #426175;*/
+	padding: 20px;
+}
+
+.colorDevenloper {
+	color: #e3b155;
+}
+.boton1 {
+	/*background: #e3b155;*/
+	background-color: #426175;
+	/*color: #27242a;*/
+	color: #ffff;
+	width: 40%;
+	margin: auto;
+	outline: none;
+}
+.boton1:hover {
+	background: none;
+	/*color: #86af9d;*/
+	color: #46d1c0;
+	border: solid 2px #46d1c0;
+	transition: all 0.8s ease;
+}
+/*SECTION DONDE VA EL INICIO*/
+@media screen and (max-width: 800px) {
+	.contenedor_negro {
+		height: 38em;
+	}
+	.contenedor_negro .capaOscura {
+		height: 39em;
+	}
+
+	.columLetras button {
+		font-size: calc(0.5em + 0.5vw);
+	}
+}
+@media screen and (max-width: 500px) {
+	.contenedor_negro {
+		height: 38em;
+	}
+	.contenedor_negro .capaOscura {
+		height: 39em;
+	}
+
+	.columLetras button {
+		font-size: calc(0.5em + 0.5vw);
+	}
+}
