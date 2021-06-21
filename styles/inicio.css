@@ -4,6 +4,7 @@
 body {
 	font-family: "DM Serif Display", serif;
 	overflow-x: hidden;
+	/*overflow: hidden;*/
 	background: #27232b;
 }
 
@@ -49,7 +50,7 @@ a {
 	text-align: center;
 }
 .navbar ul li {
-	text-decoration: none;
+	/*text-decoration: none;*/
 	margin-right: 30px;
 }
 .navbar ul li a {
@@ -85,7 +86,7 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border: solid 2px #fff;
+	/*border: solid 2px #fff;*/
 }
 .containeImg {
 	display: flex;

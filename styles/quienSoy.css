@@ -4,6 +4,7 @@
 	display: grid;
 	margin-top: -10%;
 	width: 100%;
+	/*border: solid 2px #46d1c0;*/
 	grid-template-areas:
 		"acercaDeMi acercaDeMi acercaDeMi "
 		"miFoto quienSoy quienSoy";
@@ -96,6 +97,7 @@
 
 @media screen and (max-width: 768px) {
 	.containerQuienSoy {
+		grid-template-columns: repeat(auto-fill, 100%);
 		grid-template-areas:
 			"acercaDeMi acercaDeMi acercaDeMi "
 			"miFoto miFoto miFoto"

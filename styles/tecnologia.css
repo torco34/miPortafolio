@@ -1,0 +1,109 @@
+.containerDeTecnogia {
+	width: 100%;
+	display: grid;
+	height: 55rem;
+	color: #e4b057;
+	/*border: solid 2px #fff;*/
+	grid-template-areas:
+		"misConocimiento misConocimiento misConocimiento "
+		"parrafoTecnolgia parrafoTecnolgia containerIconos";
+}
+.containerDeTecnogia .misConocimiento {
+	grid-area: misConocimiento;
+}
+.containerDeTecnogia .parrafoTecnolgia {
+	grid-area: parrafoTecnolgia;
+}
+.containerDeTecnogia .containerIconos {
+	grid-area: containerIconos;
+}
+.containerDeTecnogia div {
+	/*border: solid 3px #fff;*/
+}
+.containerIconos {
+	display: grid;
+	grid-template-columns: repeat(3, 150px);
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	/*margin-top: 50px;*/
+	grid-gap: 20px;
+}
+
+.containerIconos img {
+	width: 100%;
+	height: 20vh;
+	object-fit: cover;
+	color: #fff;
+	/*border: solid 1px #fff;*/
+}
+
+.containerIconos a {
+	height: 20vh;
+	color: #fff;
+	/*border: solid 1px #fff;*/
+}
+
+.misConocimiento {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	/*border: solid 1px #fff;*/
+}
+
+.misConocimiento hr {
+	background: #46d1c0;
+	height: 6px;
+	position: relative;
+	top: -80px;
+}
+
+.misConocimiento h2 {
+	color: #fff;
+	background: #426175;
+	height: 20px;
+	margin-top: 50px;
+}
+.parrafoTecnolgia {
+	display: grid;
+	justify-content: center;
+	/*align-items: center;*/
+	/*border: solid 1px #fff;*/
+}
+.parrafoTecnolgia h4 {
+	color: #46d1c0;
+	/*margin-top: -80px;*/
+}
+
+@media screen and (max-width: 768px) {
+	.containerDeTecnogia {
+		grid-template-columns: repeat(auto-fill, 100%);
+		grid-template-areas:
+			"misConocimiento  "
+			"parrafoTecnolgia "
+			"containerIconos";
+	}
+	.contenedorFooter {
+		grid-template-columns: repeat(auto-fill, 100%);
+		grid-template-areas:
+			"contacto  "
+			"redesSociales "
+			"miNombre";
+	}
+}
+@media screen and (max-width: 300px) {
+	.containerDeTecnogia {
+		grid-template-columns: repeat(auto-fill, 100%);
+		grid-template-areas:
+			"misConocimiento   "
+			"parrafoTecnolgia "
+			"containerIconos ";
+	}
+	.contenedorFooter {
+		grid-template-columns: repeat(auto-fill, 100%);
+		grid-template-areas:
+			"contacto  "
+			"redesSociales "
+			"miNombre ";
+	}
+}
