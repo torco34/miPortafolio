@@ -11,6 +11,7 @@
     <!-- section de icon -->
     <link rel="stylesheet" href="icon/style.css" />
     <!-- estilos css -->
+    <link rel="stylesheet" href="aos-master/dist/aos.css" />
     <link rel="stylesheet" href="styles/inicio.css" />
     <link rel="stylesheet" href="styles/home.css" />
     <link rel="stylesheet" href="styles/quienSoy.css" />
@@ -93,7 +94,7 @@
             </a>
           </div>
 
-          <div class="col-md-6 containeImg">
+          <div data-aos="fade-up" class="col-md-6 containeImg">
             <img id="foto" src="img/torco.jpg" alt="" />
           </div>
         </div>
@@ -103,18 +104,18 @@
     <br />
 
     <section id="sombre" class="containerQuienSoy">
-      <div class="acercaDeMi">
+      <div data-aos="flip-left" class="acercaDeMi">
         <h2>Acerca De Mi</h2>
         <hr />
         <p class="servicioHacer">¿Qué servicios hago?</p>
         <hr class="hrServicio" />
       </div>
 
-      <div class="miFoto">
+      <div data-aos="zoom-in-left" class="miFoto">
         <img src="img/fotito.jpg" alt="foto mia" />
       </div>
 
-      <div class="quienSoy">
+      <div data-aos="fade-up" class="quienSoy">
         <a class="text-center" href="">
           <span class="display-6 spanSoy"> Soy desarrollador</span>
           <span class="display-5 colorDeveloper">Wed </span><br />
@@ -134,12 +135,14 @@
     <!--  FOTO Y QUIEN SOY -->
     <!-- CONOCIMIENTO TECNOLGICOS -->
     <section id="experencia" class="containerDeTecnogia">
-      <div class="misConocimiento">
-        <h2>Conocimientos Técnicos y Habilidades</h2>
+      <div data-aos="flip-left" class="misConocimiento">
+        <h2 data-aos-easing="ease-out-cubic">
+          Conocimientos Técnicos y Habilidades
+        </h2>
         <hr />
       </div>
       <div class="parrafoTecnolgia">
-        <div>
+        <div data-aos="zoom-out-left">
           <br />
           <h4>
             <span class="icon-embed2">&nbsp&nbsp</span>Desarrollo Front-End
@@ -159,7 +162,7 @@
           </p>
         </div>
       </div>
-      <div class="containerIconos">
+      <div data-aos="fade-left" class="containerIconos">
         <a href="">
           <img src="img/css.png" alt="" />
           <p>30%</p>
@@ -203,20 +206,20 @@
     </section>
 
     <section id="proyecto" class="containerProyectos">
-      <div class="containerParrafo">
+      <div data-aos="fade-down" class="containerParrafo">
         <h2>Proyectos Web</h2>
         <hr />
       </div>
-      <div class="containerImagen1">
+      <div data-aos="fade-left" class="containerImagen1">
         <img src="img/musica.png" alt="" />
       </div>
-      <div class="containerImagen2">
+      <div data-aos="fade-left" class="containerImagen2">
         <img src="img/delei.png" alt="" />
       </div>
-      <div class="containerImagen3">
+      <div data-aos="fade-left" class="containerImagen3">
         <img src="img/ici.png" alt="" />
       </div>
-      <div class="containerImagen4">
+      <div data-aos="fade-left" class="containerImagen4">
         <img src="img/grid.png" alt="" />
       </div>
       <div class="containerImagen5">
@@ -287,9 +290,8 @@
       <div class="burbuja">JAVASCRIPT</div>
     </div>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!-- <script src="/static/ext/aos.js" ></script>  -->
     <script src="js/js/bootstrap.bundle.min.js"></script>
+    <script src="aos-master/dist/aos.js"></script>
     <script src="js/index.js"></script>
   </body>
 </html>

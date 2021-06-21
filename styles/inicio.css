@@ -6,6 +6,7 @@ body {
 	overflow-x: hidden;
 	/*overflow: hidden;*/
 	background: #27232b;
+	/*background: #687980;*/
 }
 
 * {
@@ -36,6 +37,8 @@ a {
 .navbar {
 	position: fixed;
 	background: #27232b;
+	/*background: #02475e;*/
+
 	color: #ff3b3f;
 	height: auto;
 	width: 100%;
@@ -81,7 +84,8 @@ a {
 	position: absolute;
 	width: 100%;
 	height: 100vh;
-	background: #27232b;
+	/*background: #27232b;*/
+	background: #f3bda1;
 	padding: 25px;
 	display: flex;
 	justify-content: center;
@@ -117,9 +121,7 @@ a {
 	color: #e3b155;
 }
 .boton1 {
-	/*background: #e3b155;*/
 	background-color: #426175;
-	/*color: #27242a;*/
 	color: #ffff;
 	width: 40%;
 	margin: auto;

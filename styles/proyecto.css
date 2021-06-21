@@ -5,7 +5,7 @@
 	margin: auto;
 	grid-gap: 20px;
 	grid-template-areas: "containerParrafo containerParrafo containerParrafo ";
-	/*background: #ecd6c7;*/
+	/*background: #fefecc;*/
 	/*border: solid 2px #fff;*/
 }
 .containerProyectos div {
