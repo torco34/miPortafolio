@@ -5,8 +5,9 @@ body {
 	font-family: "DM Serif Display", serif;
 	overflow-x: hidden;
 	/*overflow: hidden;*/
-	background: #27232b;
-	/*background: #687980;*/
+	/*background: #27232b;*/
+	/*background: #444444;*/
+	background: #171717;
 }
 
 * {
@@ -31,13 +32,16 @@ a {
 	font-family: "Roboto Slab", serif;
 }
 .porta {
-	color: #e3b155;
+	/*color: #e3b155;*/
+	color: #da0037;
 }
 
 .navbar {
 	position: fixed;
-	background: #27232b;
-	/*background: #02475e;*/
+	/*background: #27232b;*/
+
+	/*background: #3f3b3b;*/
+	background: #171717;
 
 	color: #ff3b3f;
 	height: auto;
@@ -58,16 +62,18 @@ a {
 }
 .navbar ul li a {
 	text-decoration: none;
-	color: #ffff;
+	color: #fff;
 	text-align: center;
 	font-family: "Roboto Slab", serif;
 	transition: color 0.3s ease;
 }
 .navbar ul li a.active {
-	color: #e3b155;
+	/*color: #e3b155;*/
+	color: #da0037;
 }
 .navbar ul li a:hover {
-	color: #e3b155;
+	/*color: #e3b155;*/
+	color: #da0037;
 }
 
 .contenedor_negro {
@@ -85,7 +91,8 @@ a {
 	width: 100%;
 	height: 100vh;
 	/*background: #27232b;*/
-	background: #f3bda1;
+	/*background: #3f3b3b;*/
+	background: #171717;
 	padding: 25px;
 	display: flex;
 	justify-content: center;
@@ -113,15 +120,17 @@ a {
 
 .columLetras a {
 	color: #fff;
-	/*color: #426175;*/
+	/*color: #046582;*/
 	padding: 20px;
 }
 
 .colorDevenloper {
-	color: #e3b155;
+	/*color: #e3b155;*/
+	color: #da0037;
 }
 .boton1 {
-	background-color: #426175;
+	/*background-color: #426175;*/
+	background-color: #da0037;
 	color: #ffff;
 	width: 40%;
 	margin: auto;
@@ -130,8 +139,9 @@ a {
 .boton1:hover {
 	background: none;
 	/*color: #86af9d;*/
-	color: #46d1c0;
-	border: solid 2px #46d1c0;
+	/*color: #46d1c0;*/
+	color: #da0037;
+	border: solid 2px #da0037;
 	transition: all 0.8s ease;
 }
 /*SECTION DONDE VA EL INICIO*/

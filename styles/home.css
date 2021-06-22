@@ -11,12 +11,13 @@
 /**/
 
 .contenedorFooter {
-	background: #426175;
-	background: #27232b;
-	background: #4d5956;
+	/*background: #426175;*/
+	/*background: #27232b;*/
+	background: #444444;
 	height: 40vh;
 	width: 100%;
-	color: #9fd4ca;
+	color: #fff;
+	font-size: 18px;
 	position: flex;
 	margin: 10px 0px 0px;
 	display: grid;

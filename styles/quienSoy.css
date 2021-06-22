@@ -13,17 +13,26 @@
 .acercaDeMi {
 	color: #fff;
 
-	margin-top: 5%;
+	margin-top: 8%;
 }
 .acercaDeMi h2 {
-	color: #fff;
-	background: #426175;
-	height: 50%;
-	border-radius: 2px;
+	/*background: #426175;*/
+	/*background: #feb062;*/
+	height: 50px;
+	/*border-radius: 2px;*/
+	width: 400px;
+	text-align: center;
+	border: solid 3px #fff;
+	/*text-align: center;*/
+	/*padding: 10px 0px;*/
+	/*background: #426175;*/
+	/*background: #fff;*/
+	color: #da0037;
 }
 
 .acercaDeMi hr {
-	background: #46d1c0;
+	background: #fff;
+	background: none;
 	width: 200px;
 	height: 5px;
 	margin-top: -5px;
@@ -62,15 +71,20 @@
 }
 
 .servicioHacer {
-	color: #e3b155;
+	color: #fff;
+	font-size: 20px;
+	/*color: #e3b155;*/
 }
 
 .spanSoy {
-	color: #426175;
+	/*color: #426175;*/
+	color: #ffff;
 	font-family: "Roboto Slab", serif;
 }
 .colorDeveloper {
-	color: #86af9d;
+	/*color: #86af9d;*/
+	color: #da0037;
+	height: 50px;
 }
 
 .soy {
@@ -80,18 +94,18 @@
 	margin: auto;
 }
 
-.boton2 {
+/*.boton2 {
 	background-color: #426175;
 	color: #fff;
 	width: 40%;
 	outline: none;
 }
-
-.boton2:hover {
+*/
+/*.boton2:hover {
 	background: none;
 	color: #46d1c0;
 	border: solid 2px #46d1c0;
-}
+}*/
 
 /*ANIMACION EN JS*/
 
