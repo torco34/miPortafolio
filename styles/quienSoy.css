@@ -4,6 +4,7 @@
 	display: grid;
 	margin-top: -10%;
 	width: 100%;
+
 	/*border: solid 2px #46d1c0;*/
 	grid-template-areas:
 		"acercaDeMi acercaDeMi acercaDeMi "
@@ -12,22 +13,17 @@
 
 .acercaDeMi {
 	color: #fff;
-
 	margin-top: 8%;
 }
 .acercaDeMi h2 {
-	/*background: #426175;*/
-	/*background: #feb062;*/
+	background: #444444;
 	height: 50px;
-	/*border-radius: 2px;*/
+	border-radius: 4px;
 	width: 400px;
 	text-align: center;
 	border: solid 3px #fff;
-	/*text-align: center;*/
-	/*padding: 10px 0px;*/
-	/*background: #426175;*/
-	/*background: #fff;*/
-	color: #da0037;
+	color: #fff;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .acercaDeMi hr {
@@ -71,9 +67,9 @@
 }
 
 .servicioHacer {
-	color: #fff;
+	/*color: #fff;*/
 	font-size: 20px;
-	/*color: #e3b155;*/
+	color: #da0037;
 }
 
 .spanSoy {

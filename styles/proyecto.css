@@ -3,14 +3,12 @@
 	width: 90%;
 	justify-content: center;
 	margin: auto;
+
 	grid-gap: 20px;
 	grid-template-areas: "containerParrafo containerParrafo containerParrafo ";
-	background: #444444;
-	/*border: solid 2px #fff;*/
+	background: #fff;
 }
-.containerProyectos div {
-	/*border: solid 2px #fff;*/
-}
+
 .containerProyectos .containerParrafo {
 	grid-area: containerParrafo;
 }
@@ -19,7 +17,9 @@
 	width: 100%;
 	height: 40vh;
 	background: #fff;
+	margin-top: 30px;
 	object-fit: cover;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .containerParrafo {
 	margin: auto;
@@ -30,15 +30,13 @@
 	height: 50px;
 	border: solid 3px #fff;
 	text-align: center;
+	color: #fff;
+	/*color: #da0037;*/
+	border-radius: 4px;
+	background: #444444;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
 
-	color: #da0037;
-}
-.containerParrafo hr {
-	/*width: 100%;
-	height: 10px;
-	background: #46d1c0;
-	background: #eeeeee;*/
-}
 @media screen and (max-width: 768px) {
 	.containerProyectos {
 		grid-gap: 20px;

@@ -3,6 +3,7 @@
 	display: grid;
 	height: 55rem;
 	color: #ffff;
+
 	/*border: solid 2px #fff;*/
 	grid-template-areas:
 		"misConocimiento misConocimiento misConocimiento "
@@ -52,9 +53,9 @@
 }
 
 .misConocimiento h2 {
-	color: #da0037;
-	/*background: #426175;*/
-	/*background: #feb062;*/
+	color: #fff;
+	border-radius: 4px;
+	background: #444444;
 	border: solid 2px #fff;
 	height: 50px;
 	margin-top: 50px;
