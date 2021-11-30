@@ -1,18 +1,4 @@
-:root {
-	--pink: #ecd6c7;
-	--black: #27232b;
-	--green: #86af9d;
-	--white: #f4e7d7;
-	--orange: #e4b057;
-	--blue: #426175;
-	--green2: #46d1c0;
-}
-
-/**/
-
 .contenedorFooter {
-	/*background: #426175;*/
-	/*background: #27232b;*/
 	background: #444444;
 	height: 40vh;
 	width: 100%;

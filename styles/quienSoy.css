@@ -4,8 +4,7 @@
 	display: grid;
 	margin-top: -10%;
 	width: 100%;
-
-	/*border: solid 2px #46d1c0;*/
+	font-size: calc(0.5em + 0.5vw);
 	grid-template-areas:
 		"acercaDeMi acercaDeMi acercaDeMi "
 		"miFoto quienSoy quienSoy";
@@ -19,9 +18,10 @@
 	background: #444444;
 	height: 50px;
 	border-radius: 4px;
-	width: 400px;
+	width: 300px;
 	text-align: center;
-	border: solid 3px #fff;
+	padding: 5px;
+	font-size: calc(1em + 1vw);
 	color: #fff;
 	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -62,23 +62,21 @@
 	width: 60%;
 	height: 50vh;
 	margin: auto;
+	margin-top: -10px;
 	border-radius: 5%;
 	object-fit: cover;
 }
 
 .servicioHacer {
-	/*color: #fff;*/
 	font-size: 20px;
 	color: #da0037;
 }
 
 .spanSoy {
-	/*color: #426175;*/
 	color: #ffff;
 	font-family: "Roboto Slab", serif;
 }
 .colorDeveloper {
-	/*color: #86af9d;*/
 	color: #da0037;
 	height: 50px;
 }
@@ -88,24 +86,12 @@
 	padding: 10px;
 	width: 80%;
 	margin: auto;
+	font-size: calc(1em + 1vw);
 }
-
-/*.boton2 {
-	background-color: #426175;
-	color: #fff;
-	width: 40%;
-	outline: none;
-}
-*/
-/*.boton2:hover {
-	background: none;
-	color: #46d1c0;
-	border: solid 2px #46d1c0;
-}*/
 
 /*ANIMACION EN JS*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
 	.containerQuienSoy {
 		grid-template-columns: repeat(auto-fill, 100%);
 		grid-template-areas:

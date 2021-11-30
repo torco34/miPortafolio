@@ -14,13 +14,12 @@ const CambioColor = (event) => {
 	conocer.classList.remove("active");
 	acerca.classList.remove("active");
 	proyecto.classList.remove("active");
-	inicio.classList.add("active");
-	conocer.classList.add("active");
-	acerca.classList.add("active");
-	proyecto.classList.add("active");
+	contactos.classList.remove("active");
 
 	const link = event.target;
 	console.log(link);
+	// link.classList.remove("active");
+	link.classList.add("active");
 };
 
 header.addEventListener("click", CambioColor);

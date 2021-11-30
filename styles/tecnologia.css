@@ -3,8 +3,6 @@
 	display: grid;
 	height: 55rem;
 	color: #ffff;
-
-	/*border: solid 2px #fff;*/
 	grid-template-areas:
 		"misConocimiento misConocimiento misConocimiento "
 		"parrafoTecnolgia parrafoTecnolgia containerIconos";
@@ -18,61 +16,58 @@
 .containerDeTecnogia .containerIconos {
 	grid-area: containerIconos;
 }
-.containerDeTecnogia div {
-	/*border: solid 3px #fff;*/
-}
+
 .containerIconos {
 	display: grid;
-	grid-template-columns: repeat(3, 150px);
+	grid-template-columns: repeat(3, 100px);
 	text-align: center;
 	justify-content: center;
 	align-items: center;
-	/*margin-top: 50px;*/
 	grid-gap: 20px;
+	width: 100%;
+	height: 60vh;
 }
 
 .containerIconos img {
-	width: 70%;
-	height: 15vh;
+	width: 100%;
+	height: 10vh;
 	object-fit: cover;
 	color: #fff;
-	/*border: solid 1px #fff;*/
+	grid-gap: 10px;
 }
 
 .containerIconos a {
 	height: 20vh;
 	color: #fff;
-	/*border: solid 1px #fff;*/
 }
 
 .misConocimiento {
 	display: grid;
 	justify-content: center;
 	align-items: center;
-	/*border: solid 1px #fff;*/
 }
 
 .misConocimiento h2 {
 	color: #fff;
 	border-radius: 4px;
 	background: #444444;
-	border: solid 2px #fff;
+
+	font-size: calc(1em + 0.5vw);
+	text-align: center;
+	padding: 5px;
+	width: 300px;
 	height: 50px;
-	margin-top: 50px;
+	/*margin-top: 50px;*/
 }
 .parrafoTecnolgia {
 	display: grid;
 	justify-content: center;
-	/*align-items: center;*/
-	/*border: solid 1px #fff;*/
 }
 .parrafoTecnolgia h4 {
-	/*color: #46d1c0;*/
 	color: #da0037;
-	/*margin-top: -80px;*/
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
 	.containerDeTecnogia {
 		grid-template-columns: repeat(auto-fill, 100%);
 		grid-template-areas:
@@ -87,6 +82,11 @@
 			"redesSociales "
 			"miNombre";
 	}
+	.containerIconos img {
+		width: 50%;
+		height: 8vh;
+		object-fit: cover;
+	}
 }
 @media screen and (max-width: 300px) {
 	.containerDeTecnogia {
@@ -96,6 +96,7 @@
 			"parrafoTecnolgia "
 			"containerIconos ";
 	}
+
 	.contenedorFooter {
 		grid-template-columns: repeat(auto-fill, 100%);
 		grid-template-areas:

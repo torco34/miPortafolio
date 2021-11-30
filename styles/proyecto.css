@@ -3,7 +3,6 @@
 	width: 90%;
 	justify-content: center;
 	margin: auto;
-
 	grid-gap: 20px;
 	grid-template-areas: "containerParrafo containerParrafo containerParrafo ";
 	background: #fff;
@@ -26,12 +25,12 @@
 	margin-top: 80px;
 }
 .containerParrafo h2 {
-	width: 400px;
+	width: 300px;
 	height: 50px;
-	border: solid 3px #fff;
+	font-size: calc(1em + 1vw);
 	text-align: center;
 	color: #fff;
-	/*color: #da0037;*/
+	padding: 5px;
 	border-radius: 4px;
 	background: #444444;
 	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);

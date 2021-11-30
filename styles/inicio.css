@@ -4,10 +4,15 @@
 body {
 	font-family: "DM Serif Display", serif;
 	overflow-x: hidden;
-	/*overflow: hidden;*/
-	/*background: #27232b;*/
-	/*background: #444444;*/
 	background: #171717;
+	font-size: calc(0.5em + 0.5vw);
+	background-image: linear-gradient(
+		-225deg,
+		#231557 0%,
+		#44107a 29%,
+		#ff1361 67%,
+		#fff800 100%
+	);
 }
 
 * {
@@ -32,17 +37,12 @@ a {
 	font-family: "Roboto Slab", serif;
 }
 .porta {
-	/*color: #e3b155;*/
 	color: #da0037;
 }
 
 .navbar {
 	position: fixed;
-	/*background: #27232b;*/
-
-	/*background: #3f3b3b;*/
 	background: #171717;
-
 	color: #ff3b3f;
 	height: auto;
 	width: 100%;
@@ -56,7 +56,6 @@ a {
 	text-align: center;
 }
 .navbar ul li {
-	/*text-decoration: none;*/
 	margin-right: 30px;
 }
 .navbar ul li a {
@@ -68,7 +67,6 @@ a {
 	transition: color 0.3s ease;
 }
 .navbar ul li a.active {
-	/*color: #e3b155;*/
 	color: #da0037;
 }
 .navbar ul li a:hover {
@@ -77,7 +75,7 @@ a {
 	height: 50vh;
 	width: 100%;
 }
-
+/*MANTO NEGRO DONDE VA LAS FOTOS*/
 .contenedor_negro {
 	height: 100vh;
 	background-attachment: fixed;
@@ -86,20 +84,19 @@ a {
 	background-size: cover;
 	display: grid;
 	justify-content: center;
+	grid-template-areas: "contenedor_negro contenedor_negro  ";
+
 	color: #fff;
 }
 .contenedor_negro .capaOscura {
 	position: absolute;
 	width: 100%;
 	height: 100vh;
-	/*background: #27232b;*/
-	/*background: #3f3b3b;*/
-	background: #171717;
+	/*background: #171717;*/
 	padding: 25px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/*border: solid 2px #fff;*/
 }
 .containeImg {
 	display: flex;
@@ -115,29 +112,30 @@ a {
 
 .columLetras {
 	display: grid;
-	font-size: calc(1em + 0.5vw);
+
+	font-size: calc(1em + 1vw);
 	justify-content: center;
 	font-family: "DM Serif Display", serif;
 }
 
 .columLetras a {
 	color: #fff;
-	/*color: #046582;*/
-	padding: 20px;
 }
 
 .colorDevenloper {
-	/*color: #e3b155;*/
 	color: #da0037;
 }
 .boton1 {
-	/*background-color: #426175;*/
+	position: relative;
 	background-color: #da0037;
 	color: #ffff;
-	width: 40%;
+	width: 25vh;
+	height: 6vh;
 	margin: auto;
-	outline: none;
+	top: -120px;
+	font-size: calc(0.5em + 0.5vw);
 }
+
 .boton1:hover {
 	background: none;
 	color: #da0037;
@@ -145,27 +143,18 @@ a {
 	transition: all 0.8s ease;
 }
 /*SECTION DONDE VA EL INICIO*/
+
 @media screen and (max-width: 800px) {
 	.contenedor_negro {
-		height: 38em;
-	}
-	.contenedor_negro .capaOscura {
-		height: 39em;
+		grid-template-columns: repeat(auto-fill, 100%);
+		grid-template-areas: "contenedor_negro contenedor_negro ";
 	}
 
-	.columLetras button {
-		font-size: calc(0.5em + 0.5vw);
-	}
-}
-@media screen and (max-width: 500px) {
-	.contenedor_negro {
-		height: 38em;
-	}
-	.contenedor_negro .capaOscura {
-		height: 39em;
-	}
-
-	.columLetras button {
-		font-size: calc(0.5em + 0.5vw);
+	.boton1 {
+		position: relative;
+		font-size: calc(0.7em + 0.7vw);
+		margin: 0px;
+		margin: auto;
+		top: -10px;
 	}
 }
